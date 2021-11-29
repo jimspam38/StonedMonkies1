@@ -1,0 +1,277 @@
+*{
+	font-family: Arial black;
+
+}
+
+body
+{
+	background-color: #FFF0DE !important;
+}
+
+.header
+{
+	width: 100%;
+	height:  80px;
+	display: block;
+	background-color: #101010;
+
+}
+
+.logo_container
+{
+	height: 100%;
+	display: table;
+	float: right;
+}
+
+.logo_container h1
+{
+	color: #0E1A38;
+	display: table-cell;
+	font-size: 30px;
+	position: relative;
+	bottom: 15px;
+	right: 50px;
+	letter-spacing: -3px;
+	font-style: bold;
+
+}
+
+.top_section
+{
+	background-image: url(images/banner_bg.png);
+	margin: 40px;
+	height: 960px;
+	display: block;
+}
+
+.left_part
+{
+	width: 40%;
+	float: left;
+	margin-top: 100px;
+	margin-left: 10%;
+	text-align: center;
+	position: relative;
+	right: 30px;
+
+}
+.left_part h1
+{
+	font-size: 40pt;
+	color: white;
+	text-shadow:7px 5px 0.5px black;
+}
+
+
+
+
+.right_part
+{
+	width:35%;
+	float: left;
+}
+
+.right_part img
+{
+	width: 100%;
+	position: relative;
+	left: 75px;
+}
+
+
+.divider
+{
+	width: 100%;
+	height: 5px;
+	float: left;
+}
+.tree_left
+{
+	width: 40%;
+	float: left;
+	display: block;
+	margin-top: 107px;
+}
+.small_logos
+{
+	width: 50%;
+	margin-top: 103px;
+	float: right;
+}
+
+
+.small_logos img
+{
+width: 100%;
+}
+
+.top_cloud img
+{
+	width: 20%;
+	float: right;
+	margin-top: 20px;
+	position: relative;
+	bottom: 920px;
+	left: 40px;
+}
+
+
+.social_part
+{
+	width: 60%;
+	float: left;
+	margin-left: 20%;
+	text-align: center;
+	/*background-color: #39e371;*/
+}
+
+.social_link button
+{
+	width: 200px;
+	height: 45px;
+	background-color: #39e371;
+	color: white;
+	border: none;
+	margin-top: 10px;
+	box-shadow: 5px 5px 0.5px;
+	position: relative;
+	bottom: 100px;
+}
+
+.social_part_2
+{
+	width: 60%;
+	float: left;
+	margin-left: 20%;
+	text-align: center;
+	/*background-color: #39e371;*/
+}
+
+.social_link_2 button
+{
+	width: 200px;
+	height: 45px;
+	background-color: #39e371;
+	color: white;
+	border: none;
+	margin-top: 10px;
+	box-shadow: 5px 5px 0.5px;
+	position: relative;
+	bottom: 100px;
+}
+
+.faq_section
+{
+	width: 70%;
+	margin-bottom: 100px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 15%;
+
+}
+.faq_section h2
+{
+	font-size: 30pt;
+	font-weight: 900;
+	text-align: center;
+	color: #0E1A38;
+}
+.points
+{
+	width:100%;
+	float: left;
+	margin-top:20px;
+	box-shadow: 8px 10px 0.5px 0.5px #ffc978;
+	background-color: white;
+	/*border:1px darkblue solid;*/
+}
+.points h3
+{
+	float: left;
+	color: #272F48;
+	margin-left: 10px;
+}
+.points h3:hover
+{
+	color: #30c4ff;
+}
+.points p
+{
+	float: left;
+	font-size:14pt;
+	line-height:40px;
+	margin-left: 10px;
+}
+.points span
+{
+	float: right;
+	font-size:20pt;
+	line-height:50px;
+	margin-right:10px;
+}
+
+
+
+
+.details
+{
+	width:100%;
+	float: left;
+	border-bottom:1px solid silver;
+	background-color: white;
+	display: none;
+}
+.details p
+{
+	margin-top:20px;
+	margin-bottom:20px;
+	width:90%;
+	font-size: 14pt;
+	line-height:25px;
+	margin-left:5%;
+	color: #a8a8a8;
+}
+
+
+
+
+@media only screen and (max-width: 768px)
+{
+.left_part
+{
+	width: 80%;
+	margin-top: 100px;
+	margin-left: 10%;
+
+}
+.left_part h1
+{
+	font-size: 30pt;
+}
+
+
+
+
+.right_part
+{
+	width:80%;
+	margin-left: 10%;
+	margin-top: 30px;
+	float: left;
+}
+
+.small_logos
+{
+	width: 80%;
+	margin-top: 60px;
+}
+
+.tree_left
+{
+	display: none;
+}
+
+
+
+}
